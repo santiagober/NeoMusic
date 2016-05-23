@@ -131,3 +131,45 @@ ul li{
 		left: 35%;
 	}	
 }
+
+/*Página Generos*/
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.promoted{
+	background: #efefef;
+}
+.generos{
+	position: relative;;
+}
+.generos-text{
+	font-family: 'Roboto', sans-serif;
+	padding-left: 20px;
+}
+.rec-wrap{
+	background: rgba(255,255,255,0.5);
+	overflow: hidden;
+	position: absolute;
+	bottom: 30px;
+	left: 80px;
+	padding-right: 40px;
+	max-width: 500px;
+	max-height: 500px;
+	font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 895px){
+	.rec-wrap{
+		bottom: 10px;
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.generos-text-title{
+		font-size: 28px;
+	}
+	.generos-text-content{
+		font-size: 20px;
+	}
+}
