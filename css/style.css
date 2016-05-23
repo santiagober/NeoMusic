@@ -158,10 +158,30 @@ ul li{
 	max-height: 500px;
 	font-family: 'Montserrat', sans-serif;
 }
+.gen-content{
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 23px;
+	font-weight: lighter;
+	padding-left: 50px;
+	padding-top: 50px;
+	/*letter-spacing: 0.8px;*/
+	/*text-align: justify;*/
+	line-height: 160%;
+	color: #515151;
+}
+.gen-subtitle{
+	font-family: 'Cromsin Tet', sans-serif;
+	font-weight: 600;
+	color: #515151;
+	padding-left: 50px;
+}
 @media screen and (max-width: 895px){
 	.rec-wrap{
 		bottom: 10px;
 		left: 10px;
+	}
+	.gen-content, .gen-subtitle{
+		padding-left: 10px;
 	}
 }
 
@@ -171,5 +191,8 @@ ul li{
 	}
 	.generos-text-content{
 		font-size: 20px;
+	}
+	.gen-content, .gen-subtitle{
+		padding-left: 0;
 	}
 }
