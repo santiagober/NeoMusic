@@ -258,7 +258,8 @@ ul li{
 .items-gen{
 	margin: 0;
 	padding: 50px 0 0 0;
-	width: 100%;
+	/*width: 100%;*/
+	text-align: center;
 }
 .item-gen{
 	display: inline-block;
@@ -398,4 +399,13 @@ ul li{
 	.list-feat{
 	font-size: 19px;
 }
+}
+.subtitle1{
+	font-weight: 700;
+	font-size: 28px;
+	margin: 40px 50px 50px 40px;
+	font-family: 'Cromsin Text', sans-serif;
+	background: #502D21;
+	text-align: center;
+	color: white;
 }
